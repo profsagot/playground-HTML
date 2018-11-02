@@ -1,10 +1,10 @@
-title: Exercices_HTML
+title: Exercices HTML
 plan:
 - title: Introduction
   statement: markdowns/welcome.md
-- title: Partie 1
+- title: Balises sans attribut
   statement: markdowns/no_att_tag.md
- projects:
+projects:
   first-project:
     root: /html
     runner:
