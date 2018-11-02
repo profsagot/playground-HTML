@@ -10,6 +10,9 @@
 |`ul`|[listes non-ordonnées](https://www.w3schools.com/tags/tag_ul.asp)|
 |`ul`|[listes ordonnées](https://www.w3schools.com/tags/tag_ol.asp)|
 |`li`|[éléments de listes](https://www.w3schools.com/tags/tag_li.asp)|
+|`em`|[éléments de listes](https://www.w3schools.com/tags/tag_em.asp)|
+|`strong`|[éléments de listes](https://www.w3schools.com/tags/tag_strong.asp)|
+|`mark`|[éléments de listes](https://www.w3schools.com/tags/tag_mark.asp)|
 
 ## Exercice 1
 
@@ -22,3 +25,16 @@ Encoder dans votre page 2 paragraphes.
 Encoder dans l'ordre des titres de niveau 1 à 6.
 
 @[Les titres]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*h1.*h2.*h3.*h4.*h5.*h6.*"})
+
+
+## Exercice 3
+
+Encoder une liste ordonnées d'au moins 3 éléments.
+
+@[Listes]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*ol--[(li--){3,}].*"})
+
+## Exercice 4
+
+Encoder dans l'ordre un titre de niveau 1, un paragraphe contenant une partie de texte mis en évidence `em`, un paragraphe contenant une partie de texte importante `strong` et un paragraphe contenant une partie de texte surligné `mark`.
+
+@[Listes]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*p--[em--].*p--[strong--].*p--[mark--].*"})
