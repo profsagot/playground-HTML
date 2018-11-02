@@ -8,7 +8,7 @@ Le HTML est un langage de balisage standard pour créer des pages Web.
 - Les navigateurs n'affichent pas les balises HTML, mais les utilisent pour afficher le contenu de la page.
 
 # Contexte d'utilisation
-Pour les premiers exercices que vous réaliserez sur cette interface il ests uniquement demandez d'introduire le code contenu dans le `body`.
+Pour les premiers exercices que vous réaliserez sur cette interface, il est uniquement demandé d'introduire le code contenu dans le `body`.
 Vous serez donc dans le contexte présenté ci-après :
 ```html
 <!DOCTYPE html>
@@ -26,9 +26,9 @@ Vous serez donc dans le contexte présenté ci-après :
 
 - La déclaration `<! DOCTYPE html>` définit le document comme étant HTML5
 - L'élément `<html>` est l'élément racine d'une page HTML
-- L'élément `<head>` contient des méta-informations sur le document (non visible dans la page)
+- L'élément `<head>` contient des méta-informations sur le document (non visibles dans la page)
 - L'élément `<title>` spécifie le titre du document
-- L'élément `<meta charset="UTF-8">` spécifie le type d'encode du document (ici UTF-8)
+- L'élément `<meta charset="UTF-8">` spécifie le type d'encodage du document (ici UTF-8)
 - L'élément `<body>` contient le contenu visible de la page
 
 
