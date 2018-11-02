@@ -2,6 +2,15 @@
 
 **Remarque** : Les balises utilisées ci-après sont utilisées pour les exercices sans attribut mais elles peuvent en prendre.
 
+## Ressources
+|Balise|Lien|
+|------|----|
+|`p`|[paragraphes](https://www.w3schools.com/tags/tag_p.asp)|
+|`h#`|[titres](https://www.w3schools.com/tags/tag_hn.asp)|
+|`ul`|[listes non-ordonnées](https://www.w3schools.com/tags/tag_ul.asp)|
+|`ul`|[listes ordonnées](https://www.w3schools.com/tags/tag_ol.asp)|
+|`li`|[éléments de listes](https://www.w3schools.com/tags/tag_li.asp)|
+
 ## Exercice 1
 
 Encoder dans votre page 2 paragraphes.
