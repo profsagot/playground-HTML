@@ -2,7 +2,9 @@ title: Exercices HTML
 plan:
 - title: Introduction
   statement: markdowns/welcome.md
-projects:
+- title: Partie 1
+  statement: markdowns/no_att_tag.md
+ projects:
   first-project:
     root: /html
     runner:
