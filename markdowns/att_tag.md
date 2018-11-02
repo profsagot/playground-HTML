@@ -3,8 +3,8 @@
 ## Ressources
 |Balise|Lien|
 |------|----|
-|`img`|[paragraphes](https://www.w3schools.com/tags/tag_img.asp)|
-|`a`|[titres](https://www.w3schools.com/tags/tag_a.asp)|
+|`img`|[images](https://www.w3schools.com/tags/tag_img.asp)|
+|`a`|[liens/ancres](https://www.w3schools.com/tags/tag_a.asp)|
 
 ## Exercice 1
 
@@ -16,3 +16,8 @@ Insérer une image avec ses attributs obligatoires dans la page. Les 5 images su
 
 Insérer un lien vers *https://www.w3schools.com/*.
 @[Liens]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*a-href-.*"})
+
+## Exercice 3
+Le document est au total constitué de 10 paragraphes. Avant tout paragraphe insérer un lien vers une ancre placé avant le dernier paragraphe.
+
+@[Liens et ancres]({"stubs": ["lorem.html"], "command": "/bin/bash run.sh vide .*h1--a-href-(p--){9}a-id-p--.*"})
