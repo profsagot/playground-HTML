@@ -15,7 +15,8 @@
 |`mark`|[éléments de listes](https://www.w3schools.com/tags/tag_mark.asp)|
 |`pre`|[Texte préformaté](https://www.w3schools.com/tags/tag_pre.asp)|
 
-[`em`](https://www.w3schools.com/tags/tag_em.asp)
+**Balises supplémentaires :**
+[`sub`](https://www.w3schools.com/tags/tag_sub.asp) [`sup`](https://www.w3schools.com/tags/tag_sup.asp) [`q`](https://www.w3schools.com/tags/tag_q.asp) [`code`](https://www.w3schools.com/tags/tag_code.asp) [`var`](https://www.w3schools.com/tags/tag_var.asp)
 
 ## Exercice 1
 
