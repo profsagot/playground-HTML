@@ -15,6 +15,8 @@
 |`mark`|[éléments de listes](https://www.w3schools.com/tags/tag_mark.asp)|
 |`pre`|[Texte préformaté](https://www.w3schools.com/tags/tag_pre.asp)|
 
+[`em`](https://www.w3schools.com/tags/tag_em.asp)
+
 ## Exercice 1
 
 Encoder dans votre page 2 paragraphes.
