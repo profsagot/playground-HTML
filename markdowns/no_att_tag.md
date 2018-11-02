@@ -10,13 +10,10 @@
 |`ul`|[listes non-ordonnées](https://www.w3schools.com/tags/tag_ul.asp)|
 |`ul`|[listes ordonnées](https://www.w3schools.com/tags/tag_ol.asp)|
 |`li`|[éléments de listes](https://www.w3schools.com/tags/tag_li.asp)|
-|`em`|[éléments de listes](https://www.w3schools.com/tags/tag_em.asp)|
-|`strong`|[éléments de listes](https://www.w3schools.com/tags/tag_strong.asp)|
-|`mark`|[éléments de listes](https://www.w3schools.com/tags/tag_mark.asp)|
 |`pre`|[Texte préformaté](https://www.w3schools.com/tags/tag_pre.asp)|
 
 **Balises supplémentaires :**
-[`sub`](https://www.w3schools.com/tags/tag_sub.asp) [`sup`](https://www.w3schools.com/tags/tag_sup.asp) [`q`](https://www.w3schools.com/tags/tag_q.asp) [`code`](https://www.w3schools.com/tags/tag_code.asp) [`var`](https://www.w3schools.com/tags/tag_var.asp)
+[`sub`](https://www.w3schools.com/tags/tag_sub.asp) [`sup`](https://www.w3schools.com/tags/tag_sup.asp) [`q`](https://www.w3schools.com/tags/tag_q.asp) [`code`](https://www.w3schools.com/tags/tag_code.asp) [`var`](https://www.w3schools.com/tags/tag_var.asp) [`em`](https://www.w3schools.com/tags/tag_em.asp) [`strong`](https://www.w3schools.com/tags/tag_strong.asp) [`mark`](https://www.w3schools.com/tags/tag_mark.asp)
 
 ## Exercice 1
 
