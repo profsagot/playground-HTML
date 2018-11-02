@@ -13,6 +13,7 @@
 |`em`|[éléments de listes](https://www.w3schools.com/tags/tag_em.asp)|
 |`strong`|[éléments de listes](https://www.w3schools.com/tags/tag_strong.asp)|
 |`mark`|[éléments de listes](https://www.w3schools.com/tags/tag_mark.asp)|
+|`pre`|[Texte préformaté](https://www.w3schools.com/tags/tag_pre.asp)|
 
 ## Exercice 1
 
@@ -38,3 +39,9 @@ Encoder une liste ordonnées d'au moins 3 éléments.
 Encoder dans l'ordre un titre de niveau 1, un paragraphe contenant une partie de texte mis en évidence `em`, un paragraphe contenant une partie de texte importante `strong` et un paragraphe contenant une partie de texte surligné `mark`.
 
 @[Listes]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*p--[em--].*p--[strong--].*p--[mark--].*"})
+
+## Exercice 5
+
+J'ai réalisé les portraits des Simpsons en Ascii Art pour l'afficher sur ma page web. J'aimerais que celui-ci s'affiche correctement une fois le HTML interprété. Ajouté la balise adéquate pour que l'oeuvre apparraise non déformée dans le navigateur.
+
+@[Ascii Art]({"stubs": ["simpson.html"], "command": "/bin/bash run.sh simpson pre"})

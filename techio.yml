@@ -4,6 +4,8 @@ plan:
   statement: markdowns/welcome.md
 - title: Balises sans attribut
   statement: markdowns/no_att_tag.md
+- title: Balises avec attributs
+  statement: markdowns/att_tag.md
 projects:
   first-project:
     root: /html
