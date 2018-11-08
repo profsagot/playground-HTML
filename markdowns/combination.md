@@ -12,7 +12,7 @@ Les exercices ci-après nécessitent de combiner plusieurs balises.
 ## Exercice 1
 Construire un tableau de 3 lignes et 4 colonnes avec une contenu quelconque.
 
-@[Tableau]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide table--[(tr--[(td--){4}){3}]]"})
+@[Tableau]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide table--[(tr--[(td--){4}]){3}]"})
 
 ## Exercice 2
 
