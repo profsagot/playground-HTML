@@ -16,4 +16,4 @@ Dans le texte ci-dessous :
 - Définition et Histoire sont des titres de niveau 2
 - Chaque autres portions de texte est un paragraphe
  
-@[Texte]({"stubs": ["informatique.html"], "command": "/bin/bash run.sh informatique h1--p--{2}h2--p--{3}h2--p--{2}"})
+@[Texte]({"stubs": ["informatique.html"], "command": "/bin/bash run.sh informatique h1--(p--){2}h2--(p--){3}h2--(p--){2}"})
