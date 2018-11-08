@@ -8,6 +8,8 @@ Les exercices ci-après nécessitent de combiner plusieurs balises.
 |`table`|[tableau](https://www.w3schools.com/tags/tag_table.asp)|
 |`tr`|[ligne](https://www.w3schools.com/tags/tag_tr.asp)|
 |`td`|[colonne](https://www.w3schools.com/tags/tag_td.asp)|
+|`section`|[section](https://www.w3schools.com/tags/tag_section.asp)|
+|`article`|[article](https://www.w3schools.com/tags/tag_article.asp)|
 
 ## Exercice 1
 Construire un tableau de 3 lignes et 4 colonnes avec une contenu quelconque.
