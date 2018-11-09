@@ -28,4 +28,4 @@ Dans le texte ci-dessous :
 @[Texte]({"stubs": ["informatique.html"], "command": "/bin/bash run.sh informatique article--[section--[h1--(p--){2}]section--[h2--(p--){3}]section--[h2--(p--){2}]]"})
 
 ## Exercice 3
-@[Texte]({"stubs": ["liege.html"], "command": "/bin/bash run.sh liege article--[section--[h1--(p--){2}]section--[h2--(p--){3}]section--[h2--(p--){2}]] style.css"})
+@[Texte]({"stubs": ["liege.html"], "command": "/bin/bash run.sh liege header--[h1--]aside--[img-altsrc-]article--[header--[h2--p--](section--[h3--(p--)+])+]footer--[(p--){2}] style.css"})
