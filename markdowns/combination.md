@@ -1,4 +1,4 @@
-# Balises
+# Composition de balise
 
 Les exercices ci-après nécessitent de combiner plusieurs balises.
 

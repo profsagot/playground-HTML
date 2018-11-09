@@ -6,8 +6,10 @@ plan:
   statement: markdowns/no_att_tag.md
 - title: Balises avec attributs
   statement: markdowns/att_tag.md
-- title: Balises
+- title: Composition de balise
   statement: markdowns/combination.md
+- title: Les formulaires
+  statement: markdowns/forms.md
 projects:
   first-project:
     root: /html
