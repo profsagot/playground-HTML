@@ -8,6 +8,8 @@ plan:
   statement: markdowns/att_tag.md
 - title: Composition de balise
   statement: markdowns/combination.md
+- title: La sémantique
+  statement: markdowns/semantic.md
 - title: Les formulaires
   statement: markdowns/forms.md
 projects:
