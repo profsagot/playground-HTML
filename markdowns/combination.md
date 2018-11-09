@@ -25,4 +25,7 @@ Dans le texte ci-dessous :
 - Chaque titre et les paragraphes le suivant constitue une section
 - L'ensemble du document constitue un article
  
-@[Texte]({"stubs": ["informatique.html"], "command": "/bin/bash run.sh informatique article--[section--[h1--(p--){2}]section--[h2--(p--){3}]section--[h2--(p--){2}]] style.css"})
+@[Texte]({"stubs": ["informatique.html"], "command": "/bin/bash run.sh informatique article--[section--[h1--(p--){2}]section--[h2--(p--){3}]section--[h2--(p--){2}]]"})
+
+## Exercice 3
+@[Texte]({"stubs": ["liege.html"], "command": "/bin/bash run.sh liege article--[section--[h1--(p--){2}]section--[h2--(p--){3}]section--[h2--(p--){2}]] style.css"})
