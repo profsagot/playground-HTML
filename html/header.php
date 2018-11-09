@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<?php
-			if (!empty(argv[2])) 
-				echo '<link rel="stylesheet" href="'.argv[2].'">';
+			if (!empty($argv[2])) 
+				echo '<link rel="stylesheet" href="'.$argv[2].'">';
 		?>
 		<title>Titre de page</title>
 	</head>
