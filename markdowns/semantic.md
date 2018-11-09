@@ -10,6 +10,7 @@ Le HTML5 améliore la sémantique dans l'utilisation du balisage HTML en renfor�
 |`footer`|[Pied-de-page](https://www.w3schools.com/tags/tag_footer.asp)|
 |`aside`|[Contenu tangentiel](https://www.w3schools.com/tags/tag_aside.asp)|
 |`nav`|[Navigation](https://www.w3schools.com/tags/tag_nav.asp)|
+|`main`|[Contenu principal](https://www.w3schools.com/tags/tag_main.asp)|
 
 ## Exercice 1
 Il faut compléter le code ci-dessous en insérer les balises nécessaires à organiser et ajouter de la sémantique au texte.
