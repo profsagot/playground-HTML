@@ -25,4 +25,4 @@ Dans le texte ci-dessous :
 - Chaque titre et les paragraphes le suivant constitue une section
 - L'ensemble du document constitue un article
  
-@[Texte]({"stubs": ["informatique.html"], "command": "/bin/bash run.sh informatique article--[section--[h1--(p--){2}]section--[h2--(p--){3}]section--[h2--(p--){2}]]"})
+@[Texte]({"stubs": ["informatique.html"], "command": "/bin/bash run.sh informatique article--[section--[h1--(p--){2}]section--[h2--(p--){3}]section--[h2--(p--){2}]] style.css"})
