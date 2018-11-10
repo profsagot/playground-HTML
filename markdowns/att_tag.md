@@ -18,6 +18,6 @@ Insérer un lien vers *https://www.w3schools.com/*.
 @[Liens]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*a-href-.*"})
 
 ## Exercice 3
-Le document est au total constitué de 10 paragraphes. Avant le premier paragraphe insérer un lien vers une ancre placé avant le dernier paragraphe.
+Le document est au total constitué de 10 paragraphes. Avant le premier paragraphe insérer un lien vers une ancre placé avant le dernier paragraphe. 
 
 @[Liens et ancres]({"stubs": ["lorem.html"], "command": "/bin/bash run.sh lorem .*a-href-(p--){9}a-id-p--.*"})
