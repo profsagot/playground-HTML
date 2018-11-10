@@ -16,7 +16,7 @@ Le HTML5 améliore la sémantique dans l'utilisation du balisage HTML en renfor�
 Il faut compléter le code ci-dessous en insérer les balises nécessaires à organiser et ajouter de la sémantique au texte.
 La page doit se découper en 4 parties contenant chacune des sous-éléments :
 - un en-tête de page :
-	- Contenant en tant que titre 1 le texte "Villes de Belgique"
+	- d'un titre de niveau 1 "Villes de Belgique"
 - un contenu tangentiel :
 	- Contenant une image du répertoire `images` et dont le nom est `TE-Collage_Liege.png`
 - un article principal composé de :

@@ -12,11 +12,6 @@ body {
 	font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;
 }
 
-/*HTML 5 specific*/
-header,section,article,aside,footer{
-	display: block;
-}
-
 h1 {
 	font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;
 	text-align: center;
