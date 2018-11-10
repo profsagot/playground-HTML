@@ -11,4 +11,4 @@ Un formulaire fournit un espace sur la page HTML où l'utilisateur peut entrer d
 
 ## Exercices 1
 
-@[Texte]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide form--[(input-nametype-)+]"})
+@[Texte]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide form-actionmethod-[.*(input-nametype-)+.*]"})
