@@ -3,7 +3,7 @@
 html {
 	margin: 0;
 	padding: 0;
-	background-color: #eee9df;
+	background: #eee9df url(../images/tile1.png) center top repeat;
 }
 
 body {
