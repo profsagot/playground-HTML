@@ -10,7 +10,7 @@
 
 Insérer une image avec ses attributs obligatoires dans la page. Les 5 images suivantes sont disponnibles dans le répertoire `images` : `concert.jpg`, `mer.jpg`, `paysage.jpg`, `route.jpg` et `urbain.jpg`.
 
-@[Images]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*img-alt;src;-.*"})
+@[Images]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*img-alt;src-.*"})
 
 ## Exercice 2
 
