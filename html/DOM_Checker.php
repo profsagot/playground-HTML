@@ -4,8 +4,6 @@
 	function check_DOM($file,$exp) {
 		$html = str_get_html(file_get_contents($file));
 		
-		var_dump($html);
-		
 		$dom_string = go_DOM($html->root);
 		$elements = parse_DOM_exp($exp);
 		
