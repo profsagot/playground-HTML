@@ -15,7 +15,7 @@ Insérer une image avec ses attributs obligatoires dans la page. Les 5 images su
 ## Exercice 2
 
 Insérer un lien vers *https://www.w3schools.com/*.
-@[Liens]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*a-href-.*"})
+@[Liens]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*a-href=https://www.w3schools.com/-.*"})
 
 ## Exercice 3
 Le document est au total constitué de 10 paragraphes. Avant le premier paragraphe insérer un lien vers une ancre placé avant le dernier paragraphe. 
