@@ -14,7 +14,7 @@ Les exercices ci-après nécessitent de combiner plusieurs balises.
 ## Exercice 1
 Construire un tableau de 3 lignes et 4 colonnes avec une contenu quelconque.
 
-@[Tableau]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide table--[(tr--[(td--){4}]){3}]"})
+@[Tableau]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{table--[(tr--[(td--){4}]){3}]}"})
 
 ## Exercice 2
 
@@ -25,4 +25,4 @@ Dans le texte ci-dessous :
 - Chaque titre et les paragraphes le suivant constitue une section
 - L'ensemble du document constitue un article
  
-@[Texte]({"stubs": ["informatique.html"], "command": "/bin/bash run.sh informatique article--[section--[h1--(p--){2}]section--[h2--(p--){3}]section--[h2--(p--){2}]]"})
+@[Texte]({"stubs": ["informatique.html"], "command": "/bin/bash run.sh informatique o{article--[section--[h1--(p--){2}]section--[h2--(p--){3}]section--[h2--(p--){2}]]}"})

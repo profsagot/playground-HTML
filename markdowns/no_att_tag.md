@@ -19,26 +19,26 @@
 
 Encoder dans votre page 2 paragraphes.
 
-@[Les titres]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*p.*p.*"})
+@[Les titres]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{.*p.*p.*}"})
 
 ## Exercice 2
 
 Encoder dans l'ordre des titres de niveau 1 à 6.
 
-@[Les titres]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*h1.*h2.*h3.*h4.*h5.*h6.*"})
+@[Les titres]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{.*h1.*h2.*h3.*h4.*h5.*h6.*}"})
 
 
 ## Exercice 3
 
 Encoder une liste ordonnées d'au moins 3 éléments.
 
-@[Listes]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*ol--[(li--){3,}].*"})
+@[Listes]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{.*ol--[(li--){3,}].*}"})
 
 ## Exercice 4
 
 Encoder dans l'ordre un titre de niveau 1, un paragraphe contenant une partie de texte mis en évidence `em`, un paragraphe contenant une partie de texte importante `strong` et un paragraphe contenant une partie de texte surligné `mark`.
 
-@[Listes]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide .*p--[em--].*p--[strong--].*p--[mark--].*"})
+@[Listes]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{.*p--[em--].*p--[strong--].*p--[mark--].*}"})
 
 ## Exercice 5
 
