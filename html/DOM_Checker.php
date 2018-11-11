@@ -48,7 +48,6 @@
 	function find_element($html,$element) {
 		$finds = $html->find($element['tag']);
 		foreach ($finds as $find) {
-			var_dump($find);
 			if (isset($element['attr'])) {
 				$retval = true;
 				foreach ($element['attr'] as $attr) {
