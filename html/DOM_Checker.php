@@ -2,7 +2,7 @@
 	include("simple_html_dom.php");
 
 	function check_DOM($file,$exp) {
-		$html = file_get_html($file);
+		$html = str_get_html(file_get_contents($file));
 		$dom_string = go_DOM($html->root);
 		$elements = parse_DOM_exp($exp);
 		
