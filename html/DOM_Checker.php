@@ -26,7 +26,6 @@
 	
 	function find_all_elements($html,$elements) {
 		$retval=true;
-		var_dump($elements);
 		foreach ($elements as $tag) {
 			if (find_element($html,$tag)) {
 				$retval=$retval && true;
@@ -49,12 +48,9 @@
 	
 	function find_element($html,$element) {
 		$finds = $html->find($element['tag']);
-		var_dump($finds);
 		foreach ($finds as $find) {
 			if (isset($element['attr'])) {
 				$retval = true;
-				var_dump(empty($val));
-				var_dump($find->attr);
 				foreach ($element['attr'] as $attr) {
 					list($prop,$val) = explode2val("=",$attr);
 					if (array_key_exists($prop,$find->attr) && (empty($val) || (!empty($val) && $find->attr[$prop]==$val)) )
