@@ -31,4 +31,4 @@ La page doit se découper en 4 parties contenant chacune des sous-éléments :
 
 Si les balises sont placées correctement, le résultat final est agrémenté de CSS pour un résultat graphique.
 
-@[Texte]({"stubs": ["liege.html"], "command": "/bin/bash run.sh liege o{header--[h1--]aside--[img-altsrc-]article--[header--[h2--p--](section--[h3--(p--)+])+]footer--[(p--){2}]} style.css"})
+@[Texte]({"stubs": ["liege.html"], "command": "/bin/bash run.sh liege o{header--[h1--]aside--[img-alt;src-]article--[header--[h2--p--](section--[h3--(p--)+])+]footer--[(p--){2}]} style.css"})
