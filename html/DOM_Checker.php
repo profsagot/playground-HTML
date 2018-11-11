@@ -6,7 +6,7 @@
 		$dom_string = go_DOM($html->root);
 		$elements = parse_DOM_exp($exp);
 		
-		var_dump($elements);
+		
 		
 		preg_match("#o{(.*)}#",$exp,$expression);
 		if (empty($expression)) {
@@ -26,6 +26,7 @@
 	
 	function find_all_elements($html,$elements) {
 		$retval=true;
+		var_dump($elements);
 		foreach ($elements as $tag) {
 			if (find_element($html,$tag)) {
 				$retval=$retval && true;
@@ -51,6 +52,8 @@
 		foreach ($finds as $find) {
 			if (isset($element['attr'])) {
 				$retval = true;
+				var_dump(empty($val));
+				var_dump($find->attr);
 				foreach ($element['attr'] as $attr) {
 					list($prop,$val) = explode2val("=",$attr);
 					if (array_key_exists($prop,$find->attr) && (empty($val) || (!empty($val) && $find->attr[$prop]==$val)) )
