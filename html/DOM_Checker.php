@@ -6,6 +6,8 @@
 		$dom_string = go_DOM($html->root);
 		$elements = parse_DOM_exp($exp);
 		
+		var_dump($elements);
+		
 		preg_match("#o{(.*)}#",$exp,$expression);
 		if (empty($expression)) {
 			$order = false;
