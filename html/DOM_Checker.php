@@ -7,8 +7,6 @@
 		$dom_string = go_DOM($html->root);
 		$elements = parse_DOM_exp($exp);
 		
-		
-		
 		preg_match("#o{(.*)}#",$exp,$expression);
 		if (empty($expression)) {
 			$order = false;
@@ -50,6 +48,7 @@
 	function find_element($html,$element) {
 		$finds = $html->find($element['tag']);
 		foreach ($finds as $find) {
+			var_dump($find);
 			if (isset($element['attr'])) {
 				$retval = true;
 				foreach ($element['attr'] as $attr) {
