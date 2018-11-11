@@ -15,9 +15,6 @@
 			$exp = $expression[1];
 		}
 		
-		
-		var_dump($exp,$order);
-		
 		if (find_all_elements($html,$elements) && (!$order || DOM_in_Order($dom_string,$exp)))
 			echo "TECHIO> success true\n";
 		else
