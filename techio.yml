@@ -12,6 +12,8 @@ plan:
   statement: markdowns/semantic.md
 - title: Les formulaires
   statement: markdowns/forms.md
+- title: Exercice supplémentaire
+  statement: markdowns/ex_ordi.md
 projects:
   first-project:
     root: /html
