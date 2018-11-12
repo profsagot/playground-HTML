@@ -30,13 +30,13 @@ Créer un formulaire contenant un zone de saisie de texte multiligne.
 
 @[Formulaire]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{form-action;method-[.*textarea-name-.*]}"})
 
-## Exerice 4
+## Exercice 4
 
 Créer un formulaire contenant des champs de type case à cocher.
 
 @[Formulaire]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{form-action;method-[.*input-name;type=checkbox-.*]}"})
 
-## Exerice 5
+## Exercice 5
 
 Créer un formulaire contenant au moins 3 champs de type radio button. Attention ils doivent tous avoir leur attribut name défini sur le nom "myradio".
 
