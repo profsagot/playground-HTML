@@ -16,7 +16,7 @@ Un formulaire fournit un espace sur la page HTML où l'utilisateur peut entrer d
 
 Créer un formulaire contenant au minimum un champ de saisie de texte. Attention de ne pas oublier les attributs nécessaire au bon fonctionnement d'un formulaire `method`, `action` et `name`.
 
-@[Formulaire base]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{form-actionmethod-[.*(input-name;type=text-)+.*]}"})
+@[Formulaire base]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{form-action;method-[.*(input-name;type=text-)+.*]}"})
 
 ## Exercice 2
 
