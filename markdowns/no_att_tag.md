@@ -8,7 +8,7 @@
 |`p`|[paragraphes](https://www.w3schools.com/tags/tag_p.asp)|
 |`h#`|[titres](https://www.w3schools.com/tags/tag_hn.asp)|
 |`ul`|[listes non-ordonnées](https://www.w3schools.com/tags/tag_ul.asp)|
-|`ul`|[listes ordonnées](https://www.w3schools.com/tags/tag_ol.asp)|
+|`ol`|[listes ordonnées](https://www.w3schools.com/tags/tag_ol.asp)|
 |`li`|[éléments de listes](https://www.w3schools.com/tags/tag_li.asp)|
 |`pre`|[Texte préformaté](https://www.w3schools.com/tags/tag_pre.asp)|
 
