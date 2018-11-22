@@ -40,4 +40,4 @@ Créer un formulaire contenant des champs de type case à cocher.
 
 Créer un formulaire contenant au moins 3 champs de type radio button. Attention ils doivent tous avoir leur attribut name défini sur le nom "myradio".
 
-@[Formulaire]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{form-action;method-[.*(input-name=myradio;type=radio-){3,}.*]}"})
+@[Formulaire]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{form-action;method-[.*(input-name=myradio;type=radio-){3,}*.*]}"})
