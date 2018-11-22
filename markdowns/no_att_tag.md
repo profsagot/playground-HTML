@@ -44,4 +44,4 @@ Encoder dans l'ordre un titre de niveau 1, un paragraphe contenant une partie de
 
 J'ai réalisé les portraits des Simpsons en Ascii Art pour l'afficher sur ma page web. J'aimerais que celui-ci s'affiche correctement une fois le HTML interprété. Ajouté la balise adéquate pour que l'oeuvre apparraise non déformée dans le navigateur.
 
-@[Ascii Art]({"stubs": ["simpson.html"], "command": "/bin/bash run.sh simpson pre"})
+@[Ascii Art]({"stubs": ["simpson.html"], "command": "/bin/bash run.sh simpson pre--"})
