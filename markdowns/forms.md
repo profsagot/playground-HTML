@@ -22,7 +22,7 @@ Créer un formulaire contenant au minimum un champ de saisie de texte. Attention
 
 Créer un formulaire contenant dans l'ordre un champ de saisie et une liste déroulante d'au moins 3 entrées.
 
-@[Formulaire]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{form-action;method-[.*(input-name;type-)+.*select-name-[(option-value-){3,}]]+.*}"})
+@[Formulaire]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{form-action;method-[.*(input-name;type-)+.*select-name-[(option-value-){3,}].*].*}"})
 
 ## Exerice 3
 
