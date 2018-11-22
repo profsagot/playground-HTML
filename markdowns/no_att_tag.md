@@ -19,13 +19,13 @@
 
 Encoder dans votre page 2 paragraphes.
 
-@[Les titres]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{.*p.*p.*}"})
+@[Les titres]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{.*p--.*p--.*}"})
 
 ## Exercice 2 
 
 Encoder dans l'ordre des titres de niveau 1 à 6.
 
-@[Les titres]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{.*h1.*h2.*h3.*h4.*h5.*h6.*}"})
+@[Les titres]({"stubs": ["vide.html"], "command": "/bin/bash run.sh vide o{.*h1--.*h2--.*h3--.*h4--.*h5--.*h6--.*}"})
 
 
 ## Exercice 3
