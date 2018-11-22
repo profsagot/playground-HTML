@@ -25,6 +25,9 @@
 	
 	function find_all_elements($html,$elements) {
 		$retval=true;
+		
+		var_dump($element);
+		
 		foreach ($elements as $tag) {
 			if (find_element($html,$tag)) {
 				$retval=$retval && true;
